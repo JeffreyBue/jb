@@ -70,7 +70,7 @@ if(!empty($_POST)){
 			require('class.phpmailer.php');
 			$mail = new PHPMailer();
 			$mail->IsSMTP();                                      // Set mailer to use SMTP
-			$mail->Host = 'smtp.jeffreybue.com';  // Specify main and backup server
+			$mail->Host = 'mail.jeffreybue.com';  // Specify main and backup server
 			$mail->SMTPAuth = true;                               // Enable SMTP authentication
 			$mail->Username = 'bue@jeffreybue.com';                            // SMTP username
 			$mail->Password = 'Backl7ght';                           // SMTP password
