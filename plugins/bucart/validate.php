@@ -70,11 +70,12 @@ if(!empty($_POST)){
 			require('class.phpmailer.php');
 			$mail = new PHPMailer();
 			$mail->IsSMTP();                                      // Set mailer to use SMTP
-			$mail->Host = 'webmail.jeffreybue.com';  // Specify main and backup server
+			$mail->Host = 'smtp.jeffreybue.com';  // Specify main and backup server
 			$mail->SMTPAuth = true;                               // Enable SMTP authentication
-			$mail->Username = 'bue@jeffreybue.com';                            // SMTP username
+			$mail->Username = 'bue';                            // SMTP username
 			$mail->Password = 'Backl7ght';                           // SMTP password
 			$mail->SMTPSecure = 'tls';                            // Enable encryption, 'ssl' also accepted
+			$mail->port = 587;                            
 			
 			$mail->From = 'bue@jeffreybue.com';
 			$mail->FromName = 'Contact';
