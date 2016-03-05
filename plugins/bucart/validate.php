@@ -70,7 +70,7 @@ if(!empty($_POST)){
 			require('class.phpmailer.php');
 			$mail = new PHPMailer();
 			$mail->IsSMTP();                                      // Set mailer to use SMTP
-			$mail->Host = 'smtp.jeffreybue.com';  // Specify main and backup server
+			$mail->Host = 'webmail.jeffreybue.com';  // Specify main and backup server
 			$mail->SMTPAuth = true;                               // Enable SMTP authentication
 			$mail->Username = 'bue@jeffreybue.com';                            // SMTP username
 			$mail->Password = 'Backl7ght';                           // SMTP password
@@ -78,7 +78,7 @@ if(!empty($_POST)){
 			
 			$mail->From = 'bue@jeffreybue.com';
 			$mail->FromName = 'Contact';
-			$mail->AddAddress('jeffbue@gmail.com', 'Jeff Bue');			// Add a recipient
+			$mail->AddAddress('jeffbue@yahoo.com', 'Jeff Bue');			// Add a recipient
 			$mail->AddAddress('8019188523@vtext.com', 'My Phone');			// Add a recipient
 			$mail->AddReplyTo('bue@jeffreybue.com', 'Information');
 			
