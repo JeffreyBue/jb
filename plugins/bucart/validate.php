@@ -79,7 +79,7 @@ if(!empty($_POST)){
 			
 			$mail->From = 'bue@jeffreybue.com';
 			$mail->FromName = 'Contact';
-			$mail->AddAddress('jeffbue@yahoo.com', 'Jeff Bue');			// Add a recipient
+			$mail->AddAddress('jeffreyjbue@gmail.com', 'Jeff Bue');			// Add a recipient
 			$mail->AddAddress('8019188523@vtext.com', 'My Phone');			// Add a recipient
 			$mail->AddReplyTo('bue@jeffreybue.com', 'Information');
 			
