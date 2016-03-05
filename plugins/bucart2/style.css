@@ -1,0 +1,17 @@
+form.BUCART .BU_ok {
+	display: none;
+	color: green !important;
+}
+form.BUCART .BU_error {
+	display: none;
+	color: red !important;
+}
+form.BUCART input.valid, form.BUCART textarea.valid {
+	border: 1px solid green !important;
+}
+form.BUCART input.error, form.BUCART textarea.error {
+	border: 1px solid red !important;
+}
+form.BUCART .loading {
+	display: none;
+}

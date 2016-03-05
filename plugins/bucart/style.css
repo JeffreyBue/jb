@@ -1,0 +1,17 @@
+.BU_ok {
+	display: none;
+	color: green !important;
+}
+.BU_error {
+	display: none;
+	color: red !important;
+}
+form input.valid, form textarea.valid {
+	border: 1px solid green !important;
+}
+form input.error, form textarea.error {
+	border: 1px solid red !important;
+}
+.loading {
+	display: none;
+}

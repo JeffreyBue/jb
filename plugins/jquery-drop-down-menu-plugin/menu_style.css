@@ -1,0 +1,74 @@
+#dropmenu {
+	margin:0; 
+	padding:0; 
+	list-style-type:none; 
+	position:relative; 
+	z-index:300; 
+	width:1000px;
+	height: 60px;
+	background: url(../../themes/THEME_theme/images/topNavBG.png);  
+	font-weight:bold;
+}
+
+#dropmenu a {
+	display:block; 
+	height: 60px;
+	width: 150px;
+	color:#FFFFFF; 
+	border-right: url(../../themes/THEME_theme/images/topNavABorder.png); 
+	text-decoration:none; 
+	text-align: center;
+	line-height: 60px;
+}
+
+#dropmenu a:hover {
+	color:#CCCCCC;
+}
+
+#dropmenu li {
+	float:left; 
+	position:relative;
+}
+
+#dropmenu .children {
+	position: absolute;
+	display: none; 
+	width: 200px; 
+	top: 60px; 
+	left: 0;
+	list-style-type: none;
+}
+
+#dropmenu .children li {
+
+}
+#dropmenu .children li a {
+	display: block;
+	height: 25px;
+	width: 190px;
+	text-align: left;
+	line-height: 25px;
+	background: url(../../themes/THEME_theme/images/liBG.png) repeat-x;
+	padding-left: 10px;
+}
+
+#dropmenu li ul {
+}
+
+#dropmenu li ul li a {
+	width: 200px; 
+	height: 25px; 
+	float:left;  
+}
+
+#dropmenu ul ul {
+	
+}
+
+#dropmenu li .children .children {
+	left: 200px; 
+	margin:0 0 0 0px;
+	top: 0;
+}
+
+	

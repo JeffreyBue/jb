@@ -1,0 +1,494 @@
+/*
+Theme Name: My Blogging Theme
+Author: Jeffrey J Bue
+Description: My Blogging Theme
+Version: .01
+Tags: Jeffrey, Bue, Blog, Post, simple, usefull, default, Jeff Bue
+*/
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin: 0; 
+	padding: 0;
+	outline: none;
+}
+ul {
+	list-style-type: none;
+}
+a {
+	color: #4D6FAC;
+}
+a:visited {
+	color: #f00;
+}
+a:hover {
+	color: #45D4FF;
+}
+hr {
+	clear: both;
+	height: 50px;
+	background: url('images/hr.png');
+	border: none;
+}
+a img {
+	border: none;
+}
+
+@font-face {
+	font-family: "GaramondPro";
+	src: url('fonts/AGaramondPro-Regular.otf');
+}
+
+* {
+	font-family: "GaramondPro";
+}
+
+#clearFloat {
+	clear:both;
+	}
+
+body {
+	background: #fff url(images/body_bg.png) repeat-x;
+}
+#wrapper {
+	width: 960px;
+	min-height: 700px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.alignright {
+	float:right;
+}
+.alignleft {
+	float:left;
+}
+
+
+/********* BIG NAV ******/
+#bigNav {
+	position: absolute;
+	left: -95px;
+	width: 1150px;
+	height: 450px;
+}
+#bigNav .btn {
+	overflow: hidden;
+	position: absolute;
+}
+#bigNav span {
+	display: none;
+}
+.shimmerPhoto {
+	position: absolute;
+	overflow: hidden;
+	z-index: 41;
+	height: 300px;
+	width: 600px;
+	left: -600px;
+	background: url(images/shimmer.png);
+}
+#btn_photo a{
+	display: block;
+	height: 150px;
+	width: 300px;
+	position: relative;
+	z-index: 42;
+}
+#btn_photo {
+	top: 37.5px;
+	background: url(images/btn_Big.png);
+}
+#btn_photo:hover{
+	background-position: 0 -150px;	
+}
+#btn_video a{
+	display: block;
+	height: 150px;
+	width: 300px;
+	position: relative;
+	z-index: 42;
+}
+#btn_video {
+	top: 37.5px;
+	left: 850px;
+	background: url(images/btn_Big.png) -300px 0px;
+}
+#btn_video:hover{
+	background-position: -300px -150px;	
+}
+#btn_web a{
+	display: block;
+	height: 150px;
+	width: 300px;
+	position: relative;
+	z-index: 42;
+}
+#btn_web {
+	top: 225px;
+	left: 0px;
+	background: url(images/btn_Big.png) -600px 0px;
+}
+#btn_web:hover{
+	background-position: -600px -150px;	
+}
+#btn_contact a{
+	display: block;
+	height: 150px;
+	width: 300px;
+	position: relative;
+	z-index: 42;
+}
+#btn_contact {
+	top: 225px;
+	left: 850px;
+	background: url(images/btn_Big.png) -900px 0px;
+}
+#btn_contact:hover{
+	background-position: -900px -150px;	
+}
+/********* END BIG NAV ******/
+
+
+
+/********* HEADER ******/
+#mainpic {
+	width: 450px;
+	height: 450px;
+	margin: 0 auto;
+	background: url(images/jjb.png) 50px 0 no-repeat;
+	position: relative;
+}
+#logInLogOut {
+	position: absolute;
+	z-index: 11;
+	text-shadow: 1px 1px #fff;
+	top: 60px;
+	left: 200px;
+	height: 25px;
+	width: 50px;
+}
+#logInLogOut a{
+	height: 25px;
+	width: 30px;
+	text-decoration: none;
+	color:#000;
+	text-align: center;
+	font-size: 14px;
+	text-shadow: 1px 1px #fff;
+}
+#homeButton {
+	position: absolute;
+	z-index: 11;
+	color:#000;
+	text-shadow: 1px 1px #fff;
+	top: 5px;
+	left: 55px;
+}
+#homeButton a{
+	display: block;
+	height: 125px;
+	width: 125px;
+	text-decoration: none;
+	text-align: center;
+	font-size: 22px;
+	color:#000;
+	text-shadow: 1px 1px #fff;
+}
+#homeButton a span {
+	vertical-align: -160px;
+}
+#sm {
+	height: 120px;
+	position: relative;
+	z-index: 11;
+}
+#sm ul {
+	list-style-type: none;
+	margin-left: 95px;
+	position: relative;
+}
+#sm ul li {
+	float: left;
+	position: absolute;
+	background: url(images/dropshadow.png) 7px 1px no-repeat;
+}
+#facebook {
+	left: 0;
+}
+#twitter {
+	left: 110px;
+}
+#google {
+	left: 220px;
+}
+#youtube {
+	left: 330px;
+}
+#myspace {
+	left: 440px;
+}
+#linkedin {
+	left: 550px;
+}
+#buepics {
+	left: 660px;
+}
+#sm ul li a {
+	display: block;
+	width: 100px;
+	height: 100px;
+	margin: 0 10px;
+}
+#sm ul li img {
+	position: relative;
+}
+#sm ul li span {
+	display: block;
+	width: 100px;
+	text-align: center;
+	margin: 0 10px;
+}
+/********* END HEADER ******/	
+
+/********* DONATE ******/	
+#donateText {
+	width: 690px;
+	float: left;
+}
+#donateText {
+	font-size: 22px;
+	line-height: 34px;
+}
+#donateButton {
+	width: 250px;
+	float: left;
+}
+#donateButton form {
+	margin: 60px auto;
+	width: 150px;
+}
+#donateFooter {
+	clear: both;
+	width: 960px;
+	font-size: 22px;
+	font-weight: bolder;
+	padding: 10px 0;
+}
+
+/******* END DONATE*******/
+
+/******* CONTENT *******/
+#blogginDiv {
+	position: relative;
+	min-height: 1800px;
+}
+.page {
+	width: 540px;
+	margin: 10px 5px;
+/*	padding: 25px;*/
+	background: #fff;
+}
+
+.wp-post-image {
+	float: left;
+	margin: 0 10px 10px 0;
+	box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.99);
+    -moz-box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.99);
+    -webkit-box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.99);
+}
+
+.frontDiv {
+	width: 610px;
+}
+.frontDiv div {
+	margin-bottom: 15px;
+}
+.frontDiv h1 {
+	text-align: center;
+	background: #eee;
+}
+.headerH1 {
+	text-align: center;
+	background: #eee;
+	width: 945px;
+	margin-bottom: 10px;
+}
+.frontDiv .post h2 {
+	text-align: left;
+	line-height: 30px;
+}
+.frontDiv h2 a {
+	text-decoration: none;
+	font-size: 28px;
+}
+.frontMore a {
+	text-decoration: none;
+	font-style: italic;
+	font-family: Times New Roman, Times New Roman, Times, serif;
+}
+.entry {
+
+}
+.moreButton {
+	display: block;
+	height: 30px;
+	width: 125px;
+	background: #fff url(images/moreButton.png) no-repeat;	
+	text-decoration: none;
+	text-align: center;
+	line-height: 30px;
+	font-size: 16px;
+	color: #fff;
+	text-shadow: 1px 1px 2px #000;
+	margin-bottom: 10px;
+}
+.moreButton:visited {
+	color: #fff;
+}
+.moreButton:hover {
+	background-position: 0 -30px;
+	text-shadow: -1px -1px #000;	
+	color: #fff;
+}
+.moreButtonText {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bolder;
+}
+.moreButtonText:hover {
+
+}
+/********* END CONTENT ******/	
+
+
+
+/****** SIDEBAR *******/
+#sidebar {
+	padding: 10px;
+	float: right;
+	background: #eee;
+	position: absolute;
+	top: 0;
+	bottom: 15px;
+	right: 15px;
+	width: 300px;
+/*	box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.99);
+    -moz-box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.99);
+    -webkit-box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.99);
+*/
+}
+#sidebar li {
+	list-style-type: none;
+}
+#postSideBar {
+
+}
+#websiteSideBar {
+	margin-bottom: 10px;
+}
+#sidebar tr {
+	
+}
+#sidebar td {
+	vertical-align: top;
+}
+
+.widget_twitter h2 a{
+	color:#000;
+	text-decoration: none;
+}
+.widget_twitter ul li {
+	margin-bottom: 15px;
+}
+.widget_twitter ul li a {
+	display: block;
+}
+/********* END SIDEBAR ******/	
+
+/********* POST ******/	
+.post {
+	font-size: 22px;
+}
+.post .entry img {
+
+}
+.navigation {
+	font-size: 16px;
+}
+.postmetadata {
+	clear: both;
+	text-align: right;
+	text-indent: 0em;
+	font-size: 16px;
+}
+.postmetadata a, .navigation a {
+	text-decoration: none;
+}
+
+/****** END POST *********/
+
+/****** Calendar ******/
+
+#wp-calendar {
+	width:95%;
+	margin-bottom:15px;
+	clear:both;
+	padding:0;
+}
+#wp-calendar a {
+	color: red;
+}
+#wp-calendar caption {
+	padding:0 0 10px;
+}
+#wp-calendar th, #wp-calendar td {
+	text-align:center;
+	background:rgba(0, 0, 0, .05);
+	padding:5px;
+}
+#wp-calendar td {
+	background:transparent;
+}
+#wp-calendar td, table#wp-calendar th {
+	padding:3px 0;
+}
+/***** END CALENDAR ******/
+
+/***** FOOTER ******/
+#footer {
+	background: #ccc url('images/bottomBackground.png') repeat-x;
+	}
+footer {
+	width: 1000px;
+	margin: 0 auto;
+}
+#menu-primary-menu li a {
+	display: block;
+	width: 200px;
+	float:left;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	background: url('images/bottomNavSprite.png');	
+	color: #fff;
+	text-decoration: none;
+	font-size: 28px;
+}
+#menu-primary-menu li a:visited {
+	color: #0F0749;
+}
+#menu-primary-menu li a:active {
+	color: #f0f;
+}
+#menu-primary-menu li a:hover {
+	background: url('images/bottomNavSprite.png') 0 -40px;
+}
+footer #footer-widgets .block {
+	width: 230px;
+	padding: 10px 10px;
+	float: left;
+	text-align: center;
+}
+
+/****** END OF FOOTER *****/

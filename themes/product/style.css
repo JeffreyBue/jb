@@ -1,0 +1,35 @@
+/*
+
+Theme Name: Product
+Theme Date: 11/05/2010
+Version: 3.5
+Theme URI: http://premium.wpmudev.org/
+Description: Product is a clean modern theme designed to feature products and services
+Author: Tammie Lister - WPMU DEV - The WordPress Experts
+Author URI: http://premium.wpmudev.org
+WDP ID: 138
+
+Tags: buddypress, one column, 3 columns, threaded comments, custom colours, theme options
+
+Uses BP-Default theme files and styling for BuddyPress components with some customisation for theme.
+Included in theme to allow for own child themes rather than being child of BP-Default
+
+The CSS, XHTML and design is released under GPL:
+http://www.opensource.org/licenses/gpl-license.php
+
+v3.5
+- Color issue is fixed in admin panel (if black was selected couldn't be changed)
+- Updated color script added
+
+
+
+v3.4
+- Autostart option is enabled for slideshow
+- Styling option fixed for slideshow
+- Custom styling tabbing fixed
+- Extra space in textarea is removed
+
+*/
+
+
+/* 306383-1410309145 */

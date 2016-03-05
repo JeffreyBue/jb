@@ -1,0 +1,174 @@
+/********* POST **********/
+.post h2 {
+	text-align: center;
+}
+#postTitle {
+	text-decoration: none;
+	color: black;
+	font-size: 48px;
+	text-shadow: 2px 2px 6px #333;
+}
+.post .postDateTime {
+	text-align: right;
+}
+.post p {/********* POST **********/
+.post h2 {
+	text-align: center;
+}
+#postTitle {
+	text-decoration: none;
+	color: black;
+	font-size: 48px;
+	text-shadow: 2px 2px 6px #333;
+}
+.post .postDateTime {
+	text-align: right;
+}
+.post .entry p {
+	text-indent: 5em;
+	margin: 10px 0;
+}
+
+/************ COMMENT REPLYS *************/
+#comments-title, #reply-title {
+	font-size: 34px;
+	font-weight: bolder;
+}
+.commentlist {
+	text-align: right;
+}
+.commentlist li {
+	margin: 10px 0;
+}
+.commentlist div {
+	clear:both;
+}
+.commentlist div img {
+	float: none;
+}
+.commentlist div p {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 18px;
+}
+
+.comment .children li.depth-2 {
+	margin-right: 100px;
+}
+.comment .children li.depth-3 {
+	margin-right: 200px;
+}
+.comment .children li.depth-4 {
+	margin-right: 300px;
+}
+
+/*********** COMMENT FORM **********/
+
+#commentform {
+	
+}
+#commentform p {
+	margin: 5px;
+}
+#commentform p input, #commentform p label, #commentform p textarea, #contact-form-93 div input, #contact-form-93 div label, #contact-form-93 div textarea, #contact-form-93 p .pushbutton-wide {
+	padding: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	color: #006;
+}
+
+#commentform p input, #commentform p textarea, #contact-form-93 div input, #contact-form-93 div textarea {
+	background: #fff url('images/field_bg.png') repeat-x;	
+	border: 2px solid #ccc;
+}
+#commentform span.required {
+	font-family: Arial, Helvetica, sans-serif;	
+	color: red;
+}
+#commentform .form-submit {
+
+}
+#commentform .form-submit #submit, #contact-form-93 p .pushbutton-wide {
+	background: url(images/submit_bg.png) no-repeat;	
+	cursor: pointer;
+	color: white;
+}
+#commentform .form-submit #submit:hover, #contact-form-93 p .pushbutton-wide:hover {
+	background-position: 0 -48px;
+}
+
+.comment-form-comment {
+}
+	text-indent: 5em;
+	margin: 10px 0;
+}
+
+/************ COMMENT REPLYS *************/
+#comments-title, #reply-title {
+	font-size: 34px;
+	font-weight: bolder;
+}
+.commentlist {
+	text-align: right;
+}
+.commentlist li {
+	margin: 10px 0;
+	list-style-type: none;
+}
+.commentlist div {
+	clear:both;
+}
+.commentlist div img {
+	float: none;
+}
+.commentlist div p {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 18px;
+}
+
+.comment .children li.depth-2 {
+	margin-right: 100px;
+}
+.comment .children li.depth-3 {
+	margin-right: 200px;
+}
+.comment .children li.depth-4 {
+	margin-right: 300px;
+}
+
+/*********** COMMENT FORM **********/
+
+#commentform {
+	
+}
+#commentform p {
+	margin: 5px;
+}
+#commentform p input, #commentform p label, #commentform p textarea {
+	padding: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	color: #006;
+}
+
+#commentform p input, #commentform p textarea {
+	background: #fff url('images/field_bg.png') repeat-x;	
+	border: 2px solid #ccc;
+}
+#commentform span.required {
+	font-family: Arial, Helvetica, sans-serif;	
+	color: red;
+}
+#commentform .form-submit {
+
+}
+#commentform .form-submit #submit {
+	background: url(images/submit_bg.png) no-repeat;	
+	cursor: pointer;
+	color: white;
+}
+#commentform .form-submit #submit:hover {
+	background-position: 0 -48px;
+}
+
+.comment-form-comment {
+}

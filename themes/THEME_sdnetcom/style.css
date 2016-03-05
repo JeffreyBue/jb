@@ -1,0 +1,169 @@
+/*
+Theme Name: SDNETCOM
+Author: Jeffrey J Bue
+Description: SDNETCOM Theme
+Version: 1
+Tags: Jeffrey, Bue, Blog, Post, simple, usefull, default, Jeff Bue, SDNETCOM, SAN DIEGO, NET, COM, INTERNET, COMPURTERS
+*/
+* { padding:0px; margin:0px; }
+img, a {
+	outline: none;
+	border: none;
+}
+
+.alignright {
+	float:right;
+}
+
+.alignleft {
+	float:left;
+}
+
+body {
+	background: #494949 url('images/bodyBG.png') repeat-x;
+	position: relative;
+}
+
+#wrapper {
+	width:1000px;
+	margin: 10px auto;
+	position: relative;
+}
+
+/******* MAIN NAV AND MAIN SLIDESHOW ******/
+/*
+Top Navigation is located in plugins > jquery-drop-down-menu > menu style.css
+*/
+#mainNavHeader {
+
+}
+
+#mainSlideShowCase {
+	background: #fff;
+	width: 1000px;
+	height: 380px;
+	padding-top: 1px;
+}
+
+#mainSlideShow {
+	width: 900px;
+	margin: 39px auto;
+	box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.99);
+    -moz-box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.99);
+	-webkit-box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.99);
+	border: 1px solid #000
+}
+
+/******* CONTENT *******/
+#content {
+	clear: both;
+	overflow: hidden;
+}
+
+#blogginDiv {
+	position: relative;
+	background: #fff;
+	padding-top: 1px;
+	min-height: 400px;
+}
+
+/****** SIDEBAR *******/
+#sidebar {
+	padding: 10px;
+	float: right;
+	background: #ddd;
+	position: absolute;
+	top: 10px;
+	bottom: 15px;
+	right: 15px;
+	width: 300px;
+	box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.99);
+    -moz-box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.99);
+    -webkit-box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.99);
+}
+
+#sidebar ul, #sidebar li {
+	list-style-type: none;
+}
+
+#sidebar .widget {
+	background: url(images/bottomDots.png) 0px bottom repeat-x;
+	padding-bottom: 25px;
+	margin: 10px 0;
+}
+
+/******* BOTTOM BOOT ******/
+#bottomBoot {
+	height: 60px;
+	width: 1000px;
+	background: url(images/bottomBoot.png);	
+	position: relative;
+	bottom: 0px;
+}
+#bottomBoot ul {
+	float: right;
+	list-style-type: none;
+}
+#bottomBoot ul li {
+	float: right;
+}
+#bottomBoot ul li a{
+	display: block;
+	width: 122px;
+	height: 60px;
+	text-align: center;
+	line-height: 60px;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+#bottomBoot ul li a:hover {
+	color: #fff;
+	text-shadow: 0px 0px 10px #fff;
+}
+/******** FOOTER ******/
+.footer {
+	width:1300px;
+	text-align:center;
+	font-size:9px;
+	height: 340px;
+	position: relative;
+	left: -150px;
+	padding: 10px;
+}
+
+#footerEmail {
+	font-size: 12px;
+}
+
+.skip-link {
+	display: none;
+}
+
+.more-link {
+	float: right;
+}
+
+#entry {
+	margin: 10px 50px;	
+	padding: 25px;
+	background: #fff;
+	border: 1px solid #000;
+}
+
+#rentry {
+	margin: 10px 50px;	
+	padding: 25px;
+	background: #fff;
+	border: 1px solid #000;	
+}
+
+#clearFloat {
+	clear: both
+}
+
+
+
+
+

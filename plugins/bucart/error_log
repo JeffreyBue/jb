@@ -1,0 +1,14 @@
+[18-Jul-2014 18:27:34 America/Chicago] PHP Parse error:  syntax error, unexpected '$mail' (T_VARIABLE) in /home/webbue/public_html/wp-content/plugins/bucart/validate.php on line 69
+[18-Jul-2014 18:30:15 America/Chicago] PHP Parse error:  syntax error, unexpected '$mail' (T_VARIABLE) in /home/webbue/public_html/wp-content/plugins/bucart/validate.php on line 69
+[18-Jul-2014 18:30:47 America/Chicago] PHP Warning:  require_once(class.smtp.php): failed to open stream: No such file or directory in /home/webbue/public_html/wp-content/plugins/bucart/class.phpmailer.php on line 968
+[18-Jul-2014 18:30:47 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'class.smtp.php' (include_path='.:/opt/php54/lib/php') in /home/webbue/public_html/wp-content/plugins/bucart/class.phpmailer.php on line 968
+[10-Dec-2015 22:36:04 America/Chicago] PHP Warning:  file_get_contents(http://www.opencaptcha.com/validate.php?ans=gdfch&amp;img=201407201206142506562-80-240.jpgx): failed to open stream: HTTP request failed! HTTP/1.0 500 Internal Server Error
+ in /home/webbue/public_html/wp-content/plugins/bucart/validate.php on line 5
+[10-Dec-2015 22:36:07 America/Chicago] PHP Warning:  file_get_contents(http://www.opencaptcha.com/validate.php?ans=gdfch&amp;img=201407201206142506562-80-240.jpgx): failed to open stream: HTTP request failed! HTTP/1.0 500 Internal Server Error
+ in /home/webbue/public_html/wp-content/plugins/bucart/validate.php on line 5
+[10-Dec-2015 22:36:13 America/Chicago] PHP Warning:  file_get_contents(http://www.opencaptcha.com/validate.php?ans=gdfchhttp://www.opencaptcha.com/img/201407201206142506562-80-240.jpgx&amp;img=201407201206142506562-80-240.jpgx): failed to open stream: HTTP request failed! HTTP/1.0 500 Internal Server Error
+ in /home/webbue/public_html/wp-content/plugins/bucart/validate.php on line 5
+[10-Dec-2015 22:36:19 America/Chicago] PHP Warning:  file_get_contents(http://www.opencaptcha.com/validate.php?ans=http://www.opencaptcha.com/img/201407201206142506562-80-240.jpgx&amp;img=201407201206142506562-80-240.jpgx): failed to open stream: HTTP request failed! HTTP/1.0 500 Internal Server Error
+ in /home/webbue/public_html/wp-content/plugins/bucart/validate.php on line 5
+[18-Dec-2015 16:28:19 America/Chicago] PHP Warning:  file_get_contents(http://www.opencaptcha.com/validate.php?ans=asdf&amp;img=20151218204752720892-80-240.jpgx): failed to open stream: HTTP request failed! HTTP/1.0 500 Internal Server Error
+ in /home/webbue/public_html/wp-content/plugins/bucart/validate.php on line 5

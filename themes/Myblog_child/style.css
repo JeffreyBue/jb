@@ -1,0 +1,13 @@
+/*
+    Theme Name: Myblog_child
+    Description: Child Theme Myblog
+    Author: JJB
+	Version: 0.0.1
+    Template: Myblog
+*/
+
+@import url('../Myblog/style.css');
+
+#blogginDiv {
+	min-height: 0px;
+}

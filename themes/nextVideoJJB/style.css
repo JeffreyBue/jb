@@ -1,0 +1,69 @@
+/*
+    Theme Name: nextVideoJJB
+    Description: Child Theme Free General/Blog WordPress theme by FThemes
+    Author: JJB
+	Version: 0.0.1
+    Template: NextVideo
+*/
+
+@import url('../NextVideo/style.css');
+
+.menu-primary {
+	margin: 0;
+	width: 250px;
+}
+	
+.headerInfo {
+	margin-top:10px;
+}
+
+.post, .post-single {
+	padding: 10px;
+	margin: 10px 0;
+}
+.post-wrap .post {
+	margin: 0px 0px 10px 15px;
+}
+.widget-container a:hover {
+	color: #fff;
+}
+a {
+	text-decoration: none;
+	color: #fff;
+	font-weight: bold;
+}
+a:hover, a:focus, .title a:hover{
+	color: #375A7A;
+	text-decoration: none;
+}
+.navigation {
+	height: 30px;
+}
+.widgettitle {
+	background: url(images/widgettitle-bg.png);
+}
+.logo {
+	position: relative;
+}
+#logInLogOut {
+	position: absolute;
+	padding: 5px;
+	top: -55px;
+	right: 0px;
+	opacity: 0;
+	transition: opacity .25s ease-in-out;
+	-moz-transition: opacity .25s ease-in-out;
+	-webkit-transition: opacity .25s ease-in-out;
+	height: 50px;
+	line-height: 45px;
+}
+#logInLogOut a {
+	color: #fff;
+	text-transform: uppercase;
+}
+#logInLogOut a:hover {
+	color: #fff;
+}
+#logInLogOut:hover {
+	opacity: 1;
+}

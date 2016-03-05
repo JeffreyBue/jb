@@ -1,0 +1,8 @@
+#sliderPager a { background:url(../images/slider/slider_nav.gif) no-repeat 0 0; }
+#sliderPager a.activeSlide { background:url(../images/slider/slider_nav.gif) no-repeat 0 -28px; }
+a.buttonPromo {left:-50%; margin-left:0;}
+a:hover.button2  {background-position:top right;}
+a:hover.button2 span {background-position:top left ;}
+#pageHeader p {padding-top:7px;}
+button { width:auto; overflow:visible;}
+button span { margin-top:0px; }
